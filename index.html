@@ -1,0 +1,353 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dia De La Madre Tierra</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script> <!--necesario*/-->
+
+<!--MENU LATERAL-->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sub2.jpg','imagenes/1Sub1.jpg','imagenes/Hst1.jpg','imagenes/Sost1.jpg','imagenes/Earth1.jpg')" >
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h3><i>Dia De La Madre<br>Tierra 22 De Abril</i></h3>
+</div>
+<div class="container">
+<div id="sidebar">
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h4>¿Porqué se celebra?</h4>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h4>Historia del Día</h4>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h4>La Tierra<br>que habitamos</h4>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h6>Dialogos sobre armonía<br>con la naturaleza</h6>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h4>Hacia una<br>Tierra sostenible</h4>
+</a>
+</li>
+</ul>
+</div>
+<div class="main-content">
+<div class="swipe-area"></div>
+<a href="#" data-toggle=".container" id="sidebar-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+</div>
+</div>
+<center><br>
+<div class="slider">
+<ul>
+<li><img src="imagenes/img1.jpg" alt="sldr1" width="95%" height="95%"> </li>
+<li><img src="imagenes/img2.jpg" alt="sldr2" width="95%" height="95%"> </li>
+<li><img src="imagenes/img3.jpg" alt="sldr3" width="95%" height="95%"> </li>
+<li><img src="imagenes/img4.jpg" alt="sldr4" width="95%" height="95%"> </li>
+<li><img src="imagenes/img5.jpg" alt="sldr5" width="95%" height="95%"> </li>
+<li><img src="imagenes/img6.jpg" alt="sldr6" width="95%" height="95%"> </li>
+<li><img src="imagenes/img7.jpg" alt="sldr7" width="95%" height="95%"> </li>
+<li><img src="imagenes/img8.jpg" alt="sldr8" width="95%" height="95%"> </li>
+</ul>
+</div>
+</center>
+<center>
+<div data-role="main" class="ui-content">
+<br><br><br><br><br><br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Realizado por:</h1>
+<h2>Miguel Zenteno Jesus</h2>
+<p>Semestre:4° y Grupo:"H"</p>
+<h2>Especialidad:</h2>
+<p>Programación</p>
+<h2>Submódulo:</h2>
+<p>Desarrollo Aplicaciones Móviles</p>
+<h2>Docente:</h2>
+<p>Lic.José Antonio Gómez Hernández</p>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+</div>
+<!--Pag1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+<h1>¿Porqué se<br> celebra?</h1>
+</div>
+<div data-role="content" align="justify">
+<div>
+<p>
+Cada 22 de abril celebramos en todo el mundo el Día de la Tierra con la voluntad de recordar a la población la importancia de nuestro planeta como la casa común de todos los seres que la habitamos. En palabras de la Organización de la Naciones Unidas, este día tiene como objetivo tratar de llegar a un equilibrio entre la viabilidad y la salud medioambiental y las necesidades sociales y económicas de la nuestra y de las generaciones futuras.
+<br>
+Pero, ¿cuándo se celebró por primera vez y por qué se eligió ese día? La realidad es que el primer día de la Tierra fue en 1970, cuando el senador por el Partido Demócrata de EEUU y activista ecologista Gaylor Nelson promovió una gran movilización para visibilizar el movimiento medioambiental. Ese año logró que 20 millones de personas se manifestaran exigiendo respeto por el medio ambiente, un hito que contribuyó a asentar esta fecha, el 22 de abril, como el Día de la Tierra.
+</p>
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sub1','','imagenes/sub2.jpg',1)"><img src="imagenes/Sub1.jpg" alt="Sub1" width="9%" height="95%" id="sub1"></a>
+</center>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.ecologiaverde.com/por-que-se-celebra-el-dia-de-la-tierra-1252.html" target="_self" data-role="button">
+<p>Ver más..</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+<!--Pag2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+<h1>Historia del Día</h1>
+</div>
+<div data-role="content" align="justify">
+<div>
+<p>
+En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana. Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.<br><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sub3','','imagenes/Hst1.jpg',1)"><img src="imagenes/Hst.png" alt="Sub3" width="90%" height="90%" id="Sub3"></a></center><br>
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.<br>
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales. 
+</p>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://hipertextual.com/2015/04/dia-de-la-tierra-2015" target="_self" data-role="button">
+<h5>Ver más..</h5>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+<!--Pag3-->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+<h1>La Tierra que<br>habitamos</h1>
+</div>
+<div data-role="content" align="justify">
+<div>
+<p>
+"Madre Tierra" es una expresión común utilizada para referirse al planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.
+<br>
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+<br>
+Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+<br>
+Este día nos brinda también la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.
+</p>
+<center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sub5','','imagenes/Earth1.jpg',1)"><img src="imagenes/Earth2.jpeg" alt="Sub5" width="90%" height="90%" id="Sub5"></a>
+</center>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button">
+<h5>Ver más..</h5>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+<!--Pag4-->
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+<h1>Dialogos sobre<br>armonía con<br>la naturaleza</h1>
+</div>
+<div data-role="content" align="justify">
+<div>
+<p>
+El cambio climático es una de las mayores amenazas para el desarrollo sostenible en todo el mundo y es consecuencia de las acciones insostenibles de la humanidad, que tienen implicaciones directas en la vida de las generaciones futuras.<br>
+La Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC pdf document) y el Acuerdo de París pdf document fomentan la cooperación internacional entre las partes sobre educación, formación, conciencianción pública, participación pública y acceso público a la información sobre el cambio climático.<br>
+Con motivo del décimo aniversario del Día de la Madre Tierra, este año se celebra el noveno Diálogo sobre armonía con la naturaleza de la Asamblea General, el día 22 de abril en la Sede de la ONU de Nueva York, en el Salón del Consejo de Administración Fiduciaria.<br>
+El Diálogo Interactivo gira en torno al tema "La Madre tierra en la aplicación de la educación sobre el cambio climático". Va a servir para discutir las contribuciones de Armonía con la Naturaleza en garantizar una educación inclusiva, equitativa y de calidad para tomar medidas urgentes para combatir el cambio climático y sus impactos, e inspirar a los ciudadanos y las sociedades a reconsiderar cómo interactúan con el mundo natural en el contexto del desarrollo sostenible, la erradicación de la pobreza y la justicia climática, para garantizar que las personas en todo el mundo tengan la información y el conocimiento necesarios para alcanzar el desarrollo sostenible y los estilos de vida en armonía con la naturaleza.
+</p>
+<center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sub2','','imagenes/1Sub1.jpg',1)"><img src="imagenes/1Sub2.png" alt="Sub2" width="90%" height="90%" id="Sub2"></a>
+</center>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button">
+<h5>Ver más..</h5>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+<!--Pag5-->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+<h1>Hacia una<br>Tierra sostenible</h1>
+</div>
+<div data-role="content" align="justify">
+<div>
+<p>
+La <b>huella ecológica</b> es el cambio nocivo que cada persona provoca en el medioambiente, ese microcosmos con una gran diversidad de vida y que es el espacio que te permite existir. De manera que, si eres un ser humano, es inevitable y un acto obligado que te preocupes por el estado en que se encuentra el medioambiente, y aún más, que hagas algo, al menos respecto a tu huella indeleble en este planeta. <br>
+Los detalles y las microacciones siempre tienen gran valía (no por nada estamos a unas cuantas décadas de llenar los mares con la misma cantidad de plástico que peces). Si aún no dimensionas esto, te invitamos a probar: cambia tu estilo de vida, poco a poco, pero religiosamente; sé parte de la conciencia contemporánea que exige nuestra época y que demandan nuestro planeta y nuestra sociedad durante este tiempo en el universo.<br>
+Queremos que te sientas bien. Que esos pequeños hábitos se vuelvan una segunda naturaleza. Que esas microdecisiones para tejer el cambio modifiquen tu entorno, y éste te devuelva el esfuerzo con una calidad de vida sin precedentes. Cambio climático, contaminación, escasez de recursos, extinción de especies… Que todas esas fracturas en el cosmos se reduzcan al mínimo, con el simple acto de vivir de manera sostenible o, lo que es lo mismo, en conexión constante con el universo.
+</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Vida Sostenible:</h1>
+<center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sub4','','imagenes/Sost1.jpg',1)"><img src="imagenes/Sost.jpg" alt="Sub4" width="95%" height="95%" id="Sub4"></a>
+</center>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Sugerencias Para Tener<br>Una Vida Sostenible:</h1>
+<p>
+<b>En casa</b><br>
+<ul>
+<li>Usa focos de bajo consumo y procura no dejar los aparatos encendidos ni la calefacción cuando no te encuentres en casa. No está demás recordar que, muchas veces, la luz eléctrica no es imprescindible: apágala.</li>
+<li>Si tienes presupuesto, coloca paneles solares para generar tu propia electricidad. Aquí te decimos cómo.</li>
+<li>En cuanto a la basura, recuerda que siempre se puede rediseñar su concepto: nada es un desperdicio. Deposita minuciosamente y religiosamente cada residuo en su contenedor (orgánica, inorgánica y reciclable).</li>
+<li>Instala aireadores en los grifos de la cocina y el baño, y podrás ahorrar hasta un 50% de agua. Éstos son filtros que se enroscan en el grifo y que al abrirlos permiten que salga un chorro de agua a presión, porque mezclan el agua con el aire. Si no tienes tiempo o dinero para hacerlo, reutiliza toda el agua que puedas, cuando menos un par de veces.</li>
+<li>Usa filtros para beber el agua. Es más económico, pero también ayuda a que no generes descomunales cantidades de plástico en botellas.Porque beber agua embotellada mata al planeta.</li>
+<li>Reutiliza los frascos de vidrio. Además de ser una buena acción, se ven muy bonitos.</li>
+<li>No uses o pidas bolsas de plástico en las tiendas; carga tu propia bolsa para hacer las compras o lleva contigo bolsas de tela reutilizables. Erradica todo el plástico que puedas de tus compras.</li>
+<li>Come menos carne. No se trata de eliminarla de tu dieta si no quieres. Simplemente, reduce tu consumo. Se sabe que la producción de carne es uno de los principales causantes de gases contaminantes.</li>
+<li>Cuida la huella ecológica de tu mascota. Se ha comprobado que los perros y los gatos son responsables de hasta un 30% del consumo de carne en países como Estados Unidos.</li>
+<li>Produce tu propia comida. De acuerdo, tal vez no es posible hacerlo con toda la comida, pero puedes empezar con un hermoso huerto casero.</li>
+<li>Compra local y responsablemente. También puedes comenzar a rastrear el origen de tus alimentos; esto contribuye muchísimo a hacer crecer la inspiración. </li></ul>
+<b>En el trabajo</b><br>
+Muchas de las acciones que mencionamos arriba pueden replicarse en el trabajo (separar la basura, reutilizar o reducir el consumo de energía). También en nuestro espacio de trabajo hay cabida para fomentar al máximo la sostenibilidad. Aquí van algunas formas:<br><ul>
+<li>¿Sabías que el monitor es la pieza de la computadora que más energía gasta? En períodos de inactividad mayores a media hora, apaga completamente el equipo. No dejes los aparatos encendidos al salir a comer.</li>
+<li>Si tienes la oportunidad, lleva tus alimentos preparados o cocina en tu trabajo. Así no generas más basura.
+* Lleva tu propia botella reutilizable para cargar bebidas. Puede ser de plástico, siempre y cuando sea un utensilio de uso mayor. No está de más recordarte que los popotes ya son de mal gusto.</li> 
+<li>Camina, usa la bicicleta, el transporte público o el transporte privado colectivo para trasladarte. Enlistamos estas opciones en orden de mayor a menor beneficio, pero todas cuentan mucho. Actualmente, la congestión de urbes como la Ciudad de México es provocada por el uso habitual de automóviles, que aumenta día con día. ¿No te gustaría que, por ejemplo, en vez de destinar recursos públicos a crear más avenidas vehiculares, el dinero se utilizara para tener transporte publico de máxima calidad?</li></ul>
+<b>En la calle</b><ul>
+<li>Acostúmbrate a caminar (mira aquí sus beneficios) o a andar en bicicleta (acá hay algunos básicos para sobrevivir).</li>
+<li>Si te habitúas a caminar, podemos pasar al siguiente paso: reconectar con la naturaleza (consulta aquí una guía para lograrlo fácilmente). Cientos de beneficios rodean al solo acto de que te vayas a caminar entre árboles, o que de vez en cuando te atrevas a mirar el cielo.</li>
+<li>No tires basura, aunque sea muy pequeña (tampoco colillas de cigarro). Esta acción (por cierto, bastante vulgar) no sólo interrumpe la armonía colectiva; también se tapan los alcantarillados cuando llueve, lo que produce caos y tráfico sin precedentes.</li>
+<li>Practica el civismo siempre que puedas. Eso sí que es saludable para el planeta.</li>
+<li>También en Ecoosfera: Abre tu conciencia a estas 11 acciones para revertir el cambio climático</li></ul>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://ecoosfera.com/como-vivir-estilo-vida-sostenible-sustentable-planeta-huella/" target="_self" data-role="button">
+<h5>Ver más..</h5>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div><br>
+<img src="imagenes/logo.png" width="70" height="70" alt="pie">
+</div>
+<h3>Aplicación 4 Dia De La Madre Tierra</h3>
+<h4>Jesus Miguel Zenteno</h4>
+</div>
+</div>
+</body>
+</html>
